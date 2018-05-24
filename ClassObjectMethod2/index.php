@@ -20,7 +20,7 @@ if(isset($_REQUEST['calculation'])){
     $numone = $_REQUEST['num1'];
     $numtwo = $_REQUEST['num2'];
     if(empty($numone) or empty($numtwo)){
-        echo "<span style='color:#EE6554'>Field mus not be empty</span>";
+        echo "<span style='color:#EE6554'>Field must not be empty</span>";
     }
     else {
         echo "First number is : ".$numone." Second number is :".$numtwo."<br>";
